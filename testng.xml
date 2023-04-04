@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="tests" thread-count="4">
+  <test thread-count="1" name="LoginAccountScenarios">
+    <classes>
+      <class name="com.selenium.test.account.LoginAccountTest"/>
+      <class name="com.selenium.test.account.LoginAccountTest2"/>
+     <!--   <class name="com.selenium.test.account.LoginAccountTest3"/> -->
+    </classes>
+  </test> <!-- Test -->
+    <test thread-count="1" name="MenScenarios">
+    <classes>
+     
+      <class name="com.selenium.test.men.MenPriceTest"/>
+      <class name="com.selenium.test.men.MenWearTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
