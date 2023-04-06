@@ -15,6 +15,7 @@ public class BillingAddressPage {
 	By state = By.xpath(".//select[@id='billing_state']");
 	By pin = By.xpath(".//input[@name='billing_postcode']");
 	By saveAddr = By.xpath(".//button[@value='Save address']");
+	String test = ".//button[@value='Save address']";
 	BasePage basePage;
 
 	public BillingAddressPage(BasePage basePage) {
